@@ -1,8 +1,8 @@
 version: '3.1'
 services:
-  myshop:
+  test_Jenkins:
     restart: always
-    image: 192.168.28.133:5000/myshop
-    container_name: myshop
+    image: 192.168.28.133:5000/test_Jenkins
+    container_name: test_Jenkins
     ports:
       - 8080:8080
