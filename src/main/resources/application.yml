@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: test_Jenkins
+
+server:
+  port: 6060
